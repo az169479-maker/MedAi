@@ -1,0 +1,205 @@
+﻿@{
+    ViewData["Title"] = "Family Progress";
+
+}
+<style>
+
+    h2 {
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .progress-circle {
+      position: relative;
+      width: 180px;
+      height: 180px;
+      margin: 0 auto 20px;
+    }
+
+    .progress-circle svg {
+      transform: rotate(-90deg);
+    }
+
+    .progress-circle circle {
+      fill: none;
+      stroke-width: 12;
+      stroke-linecap: round;
+    }
+
+    .progress-bg {
+      stroke: #e5e5e5;
+    }
+
+    .progress-bar {
+      stroke: #3b82f6;
+      stroke-dasharray: 565;
+      stroke-dashoffset: 565;
+      transition: stroke-dashoffset 1s linear;
+    }
+
+    .progress-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .progress-text h3 {
+      font-size: 32px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .progress-text p {
+      margin: 0;
+      color: #555;
+    }
+
+    .info-box {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f7f8fa;
+      border-radius: 12px;
+      padding: 10px 20px;
+      font-weight: 500;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .info-box i {
+      margin-right: 8px;
+      font-size: 20px;
+      color: #3b82f6;
+    }
+
+    .family-img {
+      width: 240px;
+      max-width: 100%;
+      margin-top: 10px;
+    }
+
+    .stars {
+      color: #ffca28;
+      font-size: 20px;
+      margin: 0 5px;
+    }
+
+    .circle-wrapper {
+        position: relative;
+        width: 180px;
+        height: 180px;
+    }
+
+    .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: conic-gradient(#3b82f6 0deg, #e5e7eb 0deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background 0.3s ease;
+    }
+
+    .inner-circle {
+        width: 130px;
+        height: 130px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+        .inner-circle h2 {
+            font-size: 32px;
+            margin: 0;
+            color: #333;
+        }
+
+        .inner-circle p {
+            margin: 0;
+            color: #777;
+            font-weight: 500;
+        }
+
+    .title {
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .circle-wrapper::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background: radial-gradient(circle at center, transparent 70%, rgba(0,0,0,0.03) 71%);
+    }
+    
+</style>
+<div class="signup-card text-center">
+    <h2 class="section-title">
+        <i class="fa-solid fa-users"></i> Our Family Progress
+    </h2>
+
+    <div>
+        <span class="stars"><i class="fa-solid fa-star"></i></span>
+        <span class="stars"><i class="fa-solid fa-star"></i></span>
+        <span class="stars"><i class="fa-solid fa-star"></i></span>
+    </div>
+
+    <div class="progress-circle mt-3">
+@*         <canvas id="progressCanvas" width="150" height="150"></canvas>
+ *@
+        <div class="circle-wrapper">
+            <div class="circle" id="progressCircle">
+                <div class="inner-circle">
+                    <h2 id="percentText">0%</h2>
+                    <p>Progress</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h5><i class="fa-solid fa-trophy text-warning"></i> Challenges Done</h5>
+
+    <div class="info-box mt-2 mb-0">
+        <i class="fa-solid fa-calendar-alt"></i> 3 weeks in a row!
+    </div>
+
+    <div>
+        <img src="~/img/Family.png" class="family-img" alt="Family illustration">
+    </div>
+</div>
+
+@section Scripts{
+    
+    <script>
+        const targetPercent = 70; // adjust your goal here
+        const progress = document.getElementById("progressCircle");
+        const percentText = document.getElementById("percentText");
+
+        let current = 0;
+
+        const animate = () => {
+            if (current <= targetPercent) {
+                const angle = (current / 100) * 360;
+                progress.style.background = `conic-gradient(#3b82f6 ${angle}deg, #e5e7eb ${angle}deg)`;
+                percentText.textContent = current + "%";
+                current++;
+                requestAnimationFrame(animate);
+            }
+        };
+
+        animate();
+    </script>
+
+}

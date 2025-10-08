@@ -1,0 +1,225 @@
+﻿@{
+    ViewData["Title"] = "Daily Challenge";
+
+}
+
+<style>
+
+    .signup-card {
+        padding-bottom:40px;
+    }
+    .challenge-card {
+    transition: transform 0.3s ease;
+    }
+
+    .challenge-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+    }
+
+    .mark-complete-btn:active {
+        animation: pulse 0.3s ease;
+    }
+
+    .card {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .badge-box {
+        background-color: #f8f9fa;
+        border: 2px solid #ffc107;
+        border-radius: 12px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .badge-box:hover {
+            transform: scale(1.05);
+        }
+
+       
+</style>
+<div class="signup-card">
+    <h2 class="text-center mb-4">💪 Daily Challenge</h2>
+
+    <!-- Swiper Container -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <!-- Challenge Slide -->
+            <div class="swiper-slide">
+                <div class="card challenge-card animate__animated animate__fadeInUp">
+                    <div class="card-body text-center">
+                        <i class="fas fa-tint fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Drink 5 cups of water today</h5>
+                        <p class="card-text text-muted">Stay hydrated and feel great!</p>
+
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-info" style="width: 40%; animation: fillProgress 1.5s ease-out forwards;"></div>
+                        </div>
+                        <p class="small text-muted">2 / 5 Completed</p>
+
+                        <input type="number" class="form-control mb-2" placeholder="Enter number cups of water" min="1" max="5" />
+                        <button class="btn btn-primary w-100 mark-complete-btn">
+                            <i class="fas fa-check-circle me-2"></i> Mark Complete
+                        </button>
+
+                        <!-- Water Hero Section -->
+                        <div class="achievement-section mt-4 text-center">
+                            <h6 class="text-primary">
+                                <i class="fas fa-tint"></i> Water Hero
+                                <i class="fas fa-lock text-muted ms-2"></i>
+                            </h6>
+
+                            <div class="badge-box mt-2 p-2 border rounded d-inline-block">
+                                <i class="fas fa-tint text-info me-1"></i>
+                                <span class="fw-bold">3 weeks in a row!</span>
+                                <i class="fas fa-star text-warning ms-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat swiper-slide for more challenges -->
+            <!-- Challenge Slide -->
+            <div class="swiper-slide">
+                <div class="card challenge-card ">
+                    <div class="card-body text-center">
+                        <i class="fas fa-shoe-prints fa-3x text-primary mb-4 mt-2"></i>
+                        <h5 class="card-title">Daily Steps<br /> Walk 6,000 steps today</h5>
+                        <p class="card-text text-muted">Keep moving and stay energized!</p>
+
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-info" style="width:50%!important; animation: fillProgress 1.5s ease-out forwards;"></div>
+                        </div>
+                        <p class="small text-muted">3000 / 6000 Steps Completed</p>
+
+                        <input type="number" class="form-control mb-2" placeholder="Enter number of steps" min="1" max="6000" />
+                        <button class="btn btn-primary w-100 mark-complete-btn">
+                            <i class="fas fa-check-circle me-2"></i> Mark Complete
+                        </button>
+
+                        <!-- Water Hero Section -->
+                        <div class="achievement-section mt-4 text-center">
+                            <h6 class="text-primary">
+                                <i class="fas fa-shoe-prints"></i> Step Master
+                                <i class="fas fa-lock text-muted ms-2"></i>
+                            </h6>
+
+                            <div class="badge-box mt-2 p-2 border rounded d-inline-block">
+                                <i class="fas fa-shoe-prints text-info me-1"></i>
+                                <span class="fw-bold">1 week in a row!</span>
+                                <i class="fas fa-star text-warning ms-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat swiper-slide for more challenges -->
+            <!-- Challenge Slide -->
+            <div class="swiper-slide">
+                <div class="card challenge-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-running fa-3x text-primary mb-4 mt-2"></i>
+                        <h5 class="card-title">
+                            Daily Rope Jumps <br />
+                            Do 100 rope jumps today
+                        </h5>
+                        <p class="card-text text-muted">Improve your cardio and agility!</p>
+
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-info" style="width:0%!important; animation: fillProgress 1.5s ease-out forwards;" ></div>
+                        </div>
+                        <p class="small text-muted">0 / 100 Jumps Completed </p>
+
+                        <input type="number" class="form-control mb-2" placeholder="Enter number of jumps" min="1" max="100" />
+                        <button class="btn btn-primary w-100 mark-complete-btn">
+                            <i class="fas fa-check-circle me-2"></i> Mark Complete
+                        </button>
+
+                        <!-- Water Hero Section -->
+                        <div class="achievement-section mt-4 text-center">
+                            <h6 class="text-primary">
+                                <i class="fas fa-running"></i>  Jump Champ
+                                <i class="fas fa-lock text-muted ms-2"></i>
+                            </h6>
+
+                            <div class="badge-box mt-2 p-2 border rounded d-inline-block">
+                                <i class="fas fa-running text-info me-1" ></i>
+                                <span class="fw-bold">2 days in a row!</span>
+                                <i class="fas fa-star text-warning ms-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat swiper-slide for more challenges -->
+            <!-- Challenge Slide -->
+            <div class="swiper-slide">
+                <div class="card challenge-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-bed fa-3x text-primary mb-4 mt-2"></i>
+                        <h5 class="card-title">
+                            Daily Sleep Hours<br />
+                            Sleep at least 7 hours tonight
+                        </h5>
+                        <p class="card-text text-muted">Rest well and recharge your energy</p>
+
+                        <div class="progress mb-2">
+                            <div class="progress-bar bg-info" style="width: 0%!important; animation: fillProgress 1.5s ease-out forwards;"></div>
+                        </div>
+                        <p class="small text-muted">0 / 7 Hours Completed </p>
+
+                        <input type="number" class="form-control mb-2" placeholder="Enter sleep hours" min="1" max="7" />
+                        <button class="btn btn-primary w-100 mark-complete-btn">
+                            <i class="fas fa-check-circle me-2"></i> Mark Complete
+                        </button>
+
+                        <!-- Water Hero Section -->
+                        <div class="achievement-section mt-4 text-center">
+                            <h6 class="text-primary">
+                                <i class="fas fa-bed "></i> Sleep Star
+                                <i class="fas fa-lock text-muted ms-2"></i>
+                            </h6>
+
+                            <div class="badge-box mt-2 p-2 border rounded d-inline-block">
+                                <i class="fas fa-bed text-info  me-1"></i>
+                                <span class="fw-bold">5 days in a row!</span>
+                                <i class="fas fa-star text-warning ms-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        
+    </div>
+
+</div>
+@* <div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div> *@
+<div class="swiper-pagination"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+@section Scripts{
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper(".mySwiper", {
+        loop: false,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
+</script>
+}

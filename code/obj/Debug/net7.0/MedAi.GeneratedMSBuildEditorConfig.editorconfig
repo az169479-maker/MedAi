@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MedAi
+build_property.RootNamespace = MedAi
+build_property.ProjectDir = D:\Work\Project\MedAi\MedAi\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Work\Project\MedAi\MedAi
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Account/SignUpPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXBQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/DevicesPairing/ActivityDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1BhaXJpbmdcQWN0aXZpdHlEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/DevicesPairing/DevicesPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1BhaXJpbmdcRGV2aWNlc1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/DevicesPairing/FamilyComparison.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1BhaXJpbmdcRmFtaWx5Q29tcGFyaXNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/DevicesPairing/HistoricalTrends.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1BhaXJpbmdcSGlzdG9yaWNhbFRyZW5kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/FamilyGamification/DailyChallenge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFtaWx5R2FtaWZpY2F0aW9uXERhaWx5Q2hhbGxlbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/FamilyGamification/FamilyLeaderboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFtaWx5R2FtaWZpY2F0aW9uXEZhbWlseUxlYWRlcmJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/FamilyGamification/FamilyProgress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFtaWx5R2FtaWZpY2F0aW9uXEZhbWlseVByb2dyZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/FamilyGamification/MyAchievements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFtaWx5R2FtaWZpY2F0aW9uXE15QWNoaWV2ZW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/HeroAssistant/HerosChat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVyb0Fzc2lzdGFudFxIZXJvc0NoYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Meals/FavoriteMealsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbHNcRmF2b3JpdGVNZWFsc1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Meals/GeneratedMealPlanPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbHNcR2VuZXJhdGVkTWVhbFBsYW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Meals/GroceryListPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbHNcR3JvY2VyeUxpc3RQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Meals/MealsPlanningPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbHNcTWVhbHNQbGFubmluZ1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Meals/MyMealsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhbHNcTXlNZWFsc1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/TimeGuardian/TimeDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZUd1YXJkaWFuXFRpbWVEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/TimeGuardian/TimeSetup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZUd1YXJkaWFuXFRpbWVTZXR1cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work/Project/MedAi/MedAi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hi7z5wgo46

@@ -1,0 +1,1853 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MedAi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MedAi.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\adminlte.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.components.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.components.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.components.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.components.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.components.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.components.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.components.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.components.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.core.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.core.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.core.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.core.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.core.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.core.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.core.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.core.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.extra-components.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.extra-components.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.extra-components.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.extra-components.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.extra-components.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.extra-components.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.extra-components.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.extra-components.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.pages.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.pages.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.pages.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.pages.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.pages.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.pages.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.pages.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.pages.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.plugins.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.plugins.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.plugins.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.plugins.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.plugins.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.plugins.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.plugins.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\AdminLTELogo.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar2.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar3.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar4.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar4.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\avatar5.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\boxed-bg.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\default-150x150.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\icons.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\icons.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\photo1.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\photo2.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-1.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-2.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-3.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-4.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\prod-5.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\img\\user8-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\demo.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\dist\\js\\pages\\dashboard3.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\dist\\js\\pages\\dashboard3.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap5.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap5.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bulma.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bulma.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bulma.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.bulma.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.dataTables.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.dataTables.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap5.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap5.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bulma.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bulma.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bulma.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.bulma.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.dataTables.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.dataTables.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\DataTables-1.12.1\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\datatables.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\datatables.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\datatables.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\datatables.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\datatables.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\datatables.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\datatables.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\DataTable\\datatables.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\KendoUI\\default-ocean-blue.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\KendoUI\\default-ocean-blue.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\KendoUI\\kendo.all.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\KendoUI\\kendo.all.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\KendoUI\\kendo.all.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\KendoUI\\kendo.all.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\KendoUI\\kendo.aspnetmvc.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\KendoUI\\kendo.aspnetmvc.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bs-custom-file-input\\bs-custom-file-input.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bs-custom-file-input\\bs-custom-file-input.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bs-custom-file-input\\bs-custom-file-input.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bs-custom-file-input\\bs-custom-file-input.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bs-custom-file-input\\bs-custom-file-input.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bs-custom-file-input\\bs-custom-file-input.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\bs-custom-file-input\\bs-custom-file-input.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\bs-custom-file-input\\bs-custom-file-input.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\icheck-bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\icheck-bootstrap"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\icheck-bootstrap\\icheck-bootstrap.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\icheck-bootstrap\\icheck-bootstrap.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\af.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\af.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ar.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\az.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\az.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\be.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\be.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bg.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bm.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bm.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bn-bd.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bn-bd.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bo.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bo.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\br.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\br.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\bs.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ca.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\cs.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\cv.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\cv.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\cy.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\cy.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\da.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\da.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\de-at.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\de-ch.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\de.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\de.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\dv.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\dv.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\el.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\el.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-SG.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-SG.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-au.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-ca.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-gb.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-ie.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-il.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-il.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-in.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-in.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\en-nz.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\eo.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\eo.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\es-do.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\es-mx.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\es-mx.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\es-us.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\es.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\es.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\et.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\et.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\eu.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fa.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fi.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fil.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fil.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fo.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fo.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fy.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\fy.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ga.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ga.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gd.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gd.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gom-deva.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gom-deva.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gom-latn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gom-latn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gu.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\gu.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\he.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\he.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\hi.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\hr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\hu.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\hy-am.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\hy-am.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\id.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\id.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\is.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\is.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\it-ch.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\it-ch.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\it.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\it.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ja.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\jv.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\jv.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ka.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\kk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\km.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\km.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\kn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\kn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ko.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ku.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ku.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ky.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ky.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\lb.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\lo.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\lo.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\lt.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\lv.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\me.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\me.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mi.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mi.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ml.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ml.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ms-my.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ms.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mt.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\mt.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\my.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\my.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\nb.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ne.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ne.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\nl-be.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\nl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\nn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\oc-lnc.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\oc-lnc.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\pa-in.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\pa-in.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\pl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\pt-br.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\pt.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ro.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ru.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sd.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sd.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\se.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\se.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\si.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\si.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sq.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ss.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ss.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sv.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sw.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\sw.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ta.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ta.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\te.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\te.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tet.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tet.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tg.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tg.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\th.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\th.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tl-ph.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tl-ph.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tlh.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tlh.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tzl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tzl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tzm-latn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tzm-latn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tzm.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\tzm.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ug-cn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ug-cn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\uk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ur.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\ur.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\uz-latn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\uz-latn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\uz.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\uz.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\vi.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\x-pseudo.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\x-pseudo.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\yo.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\yo.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\zh-mo.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\zh-mo.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locales.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locales.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locales.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locales.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locales.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\locales.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment-with-locales.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment-with-locales.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment-with-locales.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment-with-locales.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment-with-locales.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment-with-locales.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\moment\\moment.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2-bootstrap4-theme\\select2-bootstrap4.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2-bootstrap4-theme\\select2-bootstrap4.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2-bootstrap4-theme\\select2-bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2-bootstrap4-theme\\select2-bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\css\\select2.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\css\\select2.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\af.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\af.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ar.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ar.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\az.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\az.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\bg.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\bg.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\bn.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\bn.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\bs.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\bs.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\build.txt",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\build.txt"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ca.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ca.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\cs.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\cs.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\da.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\da.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\de.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\de.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\dsb.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\dsb.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\el.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\el.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\en.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\en.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\es.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\es.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\et.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\et.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\eu.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\eu.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\fa.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\fi.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\fi.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\fr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\fr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\gl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\gl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\he.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\he.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hi.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hi.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hsb.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hsb.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hu.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hu.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hy.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\hy.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\id.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\id.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\is.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\is.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\it.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ja.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ja.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ka.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ka.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\km.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\km.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ko.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ko.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\lt.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\lt.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\lv.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\lv.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\mk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\mk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ms.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ms.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\nb.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\nb.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ne.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ne.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\nl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\nl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\pl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\pl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ps.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ps.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\pt-BR.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\pt-BR.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\pt.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\pt.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ro.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ro.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ru.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\ru.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sq.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sq.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sr-Cyrl.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sv.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\sv.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\th.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\th.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\tk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\tk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\tr.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\tr.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\uk.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\uk.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\vi.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\vi.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\zh-CN.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\zh-CN.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\zh-TW.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\i18n\\zh-TW.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\select2.full.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\select2.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\select2.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2-theme-bootstrap-4\\bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2-theme-bootstrap-4\\bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2-theme-bootstrap-4\\bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2-theme-bootstrap-4\\bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.all.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\tempusdominus-bootstrap-4\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\tempusdominus-bootstrap-4\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\tempusdominus-bootstrap-4\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\tempusdominus-bootstrap-4\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\tempusdominus-bootstrap-4\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\tempusdominus-bootstrap-4\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\AdminLTE-3.1.0\\plugins\\tempusdominus-bootstrap-4\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\Assets\\AdminLTE-3.1.0\\plugins\\tempusdominus-bootstrap-4\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\Images\\Logo-Horizontal-01.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Logo-Horizontal-01.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\Images\\Logo_02.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Logo_02.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\Images\\background.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\background.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\Images\\message-sent-01.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\message-sent-01.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Assets\\Images\\welcome-hero_02.jpg",
+      "PackagePath": "staticwebassets\\Assets\\Images\\welcome-hero_02.jpg"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Font\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\Font\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Font\\alfont_com_كاليبري-عريض.ttf",
+      "PackagePath": "staticwebassets\\Font\\alfont_com_كاليبري-عريض.ttf"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Img\\Chat.png",
+      "PackagePath": "staticwebassets\\Img\\Chat.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Img\\Doctor.png",
+      "PackagePath": "staticwebassets\\Img\\Doctor.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Img\\DoctorF.png",
+      "PackagePath": "staticwebassets\\Img\\DoctorF.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Img\\Doughter.png",
+      "PackagePath": "staticwebassets\\Img\\Doughter.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Img\\Family.png",
+      "PackagePath": "staticwebassets\\Img\\Family.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Img\\Father.webp",
+      "PackagePath": "staticwebassets\\Img\\Father.webp"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Img\\Mother.png",
+      "PackagePath": "staticwebassets\\Img\\Mother.png"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\Img\\Son.webp",
+      "PackagePath": "staticwebassets\\Img\\Son.webp"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Project\\MedAi\\MedAi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MedAi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MedAi.props",
+      "PackagePath": "build\\MedAi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MedAi.props",
+      "PackagePath": "buildMultiTargeting\\MedAi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MedAi.props",
+      "PackagePath": "buildTransitive\\MedAi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

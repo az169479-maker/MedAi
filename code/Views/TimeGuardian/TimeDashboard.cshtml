@@ -1,0 +1,1124 @@
+﻿@{
+    ViewData["Title"] = "TimeDashboard";
+}
+
+<style>
+    body{
+        padding:12px;
+    }
+    .signup-card {
+        padding:11px;
+        padding-bottom: 40px;
+    }
+
+    .challenge-card {
+        transition: transform 0.3s ease;
+    }
+
+        .challenge-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+        }
+
+    .mark-complete-btn:active {
+        animation: pulse 0.3s ease;
+    }
+
+    .card {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .badge-box {
+        background-color: #f8f9fa;
+        border: 2px solid #ffc107;
+        border-radius: 12px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .badge-box:hover {
+            transform: scale(1.05);
+        }
+        /***********************************************/
+
+    :root {
+        --primary: #3b82f6;
+        --accent: #ffcc66;
+        --muted: #6b7280;
+        --card-bg: #ffffff;
+        --surface: #f6f7fb;
+    }
+
+
+    .dashboard-card {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+    }
+
+    .page-title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .gear {
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+        cursor: pointer;
+        color: var(--primary);
+        font-size: 18px;
+    }
+
+    /* Top summary card */
+    .summary-card {
+        background: var(--card-bg);
+        border-radius: 16px;
+        padding: 22px;
+        box-shadow: 0 10px 30px rgba(16,24,40,0.06);
+        margin-bottom: 22px;
+    }
+
+    .summary-title {
+        font-weight: 600;
+        color: #111827;
+        margin-bottom: 6px;
+    }
+
+    .big-time {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    .mini-bar {
+        height: 10px;
+        background: #eef2ff;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .mini-bar .fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--primary), #6AA6FF);
+            border-radius: 8px;
+            transition: width .9s ease;
+        }
+
+    .summary-labels {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        margin-top: 10px;
+        font-weight: 500;
+        color: var(--muted);
+    }
+
+    /* Accordion custom style */
+    .accordion .accordion-item {
+        border: none;
+        margin-bottom: 12px;
+    }
+
+    .accordion-button {
+        border-radius: 12px;
+        background: #fff;
+        box-shadow: 0 8px 20px rgba(16,24,40,0.04);
+        color: #111827;
+        font-weight: 600;
+        padding: 18px;
+        font-size:17px
+    }
+
+        .accordion-button:not(.collapsed) {
+            color: #111827;
+            background: linear-gradient(90deg, rgba(59,130,246,0.08), rgba(59,130,246,0.03));
+        }
+
+    .accordion-body {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 8px 30px rgba(16,24,40,0.04);
+        padding: 18px;
+        margin-top: 10px;
+    }
+
+    /* App item (Accordion 1) */
+    .app-item {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 10px;
+        border-radius: 10px;
+        transition: transform .18s ease, box-shadow .18s ease;
+    }
+
+        .app-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(16,24,40,0.04);
+        }
+
+    .app-icon {
+        min-width: 35px;
+        min-height: 35px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        color: #fff;
+    }
+
+    .app-name {
+        font-weight: 600;
+    }
+
+    .app-time {
+        color: var(--muted);
+        font-weight: 600;
+        font-size: 0.95rem;
+    }
+
+    .usage-bar {
+        height: 10px;
+        background: #f2f4f8;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .usage-bar .usage-bar-fill {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), #6AA6FF);
+            transition: width 1s ease;
+        }
+
+    /* Nudges list */
+    .nudge-item {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 12px 6px;
+        border-bottom: 1px dashed rgba(17,24,39,0.06);
+    }
+
+    .nudge-icon {
+        width: 54px;
+        height: 54px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f8fafc;
+        font-size: 20px;
+        color: var(--primary);
+    }
+
+    .nudge-text {
+        font-weight: 600;
+    }
+
+    .nudge-time {
+        color: var(--muted);
+        font-size: 0.92rem;
+    }
+
+    /* Weekly summary */
+    .day-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 10px 10px;
+        margin-bottom:10px;
+        background-color: #edf2faa1;
+        border-radius:15px;
+    }
+
+    .day-left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 150px;
+    }
+
+    .day-label {
+        font-weight: 600;
+    }
+
+    
+
+    .day-hours {
+        min-width: 70px;
+        text-align: right;
+        color: var(--muted);
+        font-weight: 600;
+    }
+
+    /* Curfew */
+    .curfew-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 12px;
+        border-radius: 12px;
+        background: linear-gradient(90deg, rgba(59,130,246,0.06), rgba(59,130,246,0.02));
+    }
+
+    .curfew-times {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .toggle {
+        --size: 46px;
+        width: var(--size);
+        height: calc(var(--size) / 2);
+        background: #e9f2ff;
+        border-radius: 999px;
+        position: relative;
+        cursor: pointer;
+        padding: 4px;
+        box-sizing: border-box;
+    }
+
+        .toggle .dot {
+            width: calc(var(--size) / 2 - 8px);
+            height: calc(var(--size) / 2 - 8px);
+            background: var(--primary);
+            border-radius: 50%;
+            position: absolute;
+            left: 4px;
+            top: 4px;
+            transition: left .25s ease, transform .25s ease;
+        }
+
+        .toggle.off .dot {
+            left: calc(100% - (var(--size) / 2 + 4px));
+            background: #cbd5e1;
+            transform: translateX(-6px);
+        }
+
+    /* small helpers */
+    .mt-18 {
+        margin-top: 18px;
+    }
+
+    .mb-10 {
+        margin-bottom: 10px;
+    }
+
+    .small-muted {
+        color: var(--muted);
+        font-weight: 600;
+        font-size: 0.95rem;
+    }
+    /***Chart***/
+    .chart-container {
+        background: #fff;
+        max-width: 600px;
+        margin:  auto;
+        border-radius: 20px;
+        padding: 0 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .chart-legend {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 25px;
+        gap: 14px;
+    }
+
+    .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 600;
+    }
+
+    .legend-color {
+        width: 16px;
+        height: 16px;
+        border-radius: 4px;
+    }
+
+    .leaderboard-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+        border-bottom: 1px solid #ddd;
+        justify-content: center;
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
+        background-color: #f0f0f0;
+    }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    /* .leader-info {
+        flex-grow: 1;
+    } */
+
+    .leader-name {
+        font-weight: 600;
+        font-size: 1.25rem;
+        color: #374151;
+    }
+</style>
+
+<div class="signup-card">
+    <h2 class="text-center mb-4">⏰ Time Dashboard</h2>
+
+    <!-- Swiper Container -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            
+            <!-- Challenge Slide -->
+            <div class="swiper-slide">
+                <div class="leaderboard-item pb-4">
+                    <div class="avatar">
+                        <img src="~/img/Son.webp" alt="Fatima Avatar" />
+                    </div>
+                    <div class="leader-info">
+                        <div class="leader-name">Ali</div>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+
+                    <!-- Accordions -->
+                    <div class="accordion" id="timeAccordion">
+
+                        <!-- 1. Device Usage (apps) -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <i class="fa-solid fa-mobile-screen-button" style="color:var(--primary); margin-right:12px;"></i> Device Usage — Apps
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#timeAccordion">
+                                <div class="accordion-body">
+                                    <!-- Apps grid -->
+                                    <div class="row g-3">
+
+                                        <!-- Chart -->
+                                        <div class="chart-container">
+                                            <h2><i class="fa-solid fa-chart-pie" style="color:#3b82f6; margin-right:8px;"></i> App Usage</h2>
+                                            
+                                            <!-- Chart canvas -->
+                                            <div style="width:200px; margin:auto">
+                                            <canvas id="usageChart" width="150" height="150"></canvas>
+                                            </div>
+                                            <!-- Legend -->
+                                            <div class="chart-legend">
+                                                <div class="legend-item"><div class="legend-color" style="background:#FF0000"></div>YouTube</div>
+                                                <div class="legend-item"><div class="legend-color" style="background:#1877F2"></div>Facebook</div>
+                                                <div class="legend-item"><div class="legend-color" style="background:#C13584"></div>Instagram</div>
+                                                <div class="legend-item"><div class="legend-color" style="background:#000000"></div>TikTok</div>
+                                                <div class="legend-item"><div class="legend-color" style="background:#22C55E"></div>Games</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- App item template -->
+                                        <!-- YouTube -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:#FF0000;">
+                                                    <i class="fa-brands fa-youtube"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">YouTube</div>
+                                                        <div class="app-time">1h 10m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="70" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Facebook -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:#1877F2;">
+                                                    <i class="fa-brands fa-facebook-f"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">Facebook</div>
+                                                        <div class="app-time">30m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="30" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Instagram -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:linear-gradient(45deg,#f58529,#dd2a7b);">
+                                                    <i class="fa-brands fa-instagram"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">Instagram</div>
+                                                        <div class="app-time">50m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="50" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- TikTok -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:#000;">
+                                                    <i class="fa-brands fa-tiktok"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">TikTok</div>
+                                                        <div class="app-time">20m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="20" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Games -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:#4ade80;">
+                                                    <i class="fa-solid fa-gamepad"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">Games</div>
+                                                        <div class="app-time">50m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="50" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div> <!-- row -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2. Nudges & Alerts -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fa-solid fa-bell" style="color:var(--primary); margin-right:12px;"></i> Nudges & Alerts
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#timeAccordion">
+                                <div class="accordion-body">
+                                    <div class="nudge-item">
+                                        <div class="nudge-icon"><i class="fa-solid fa-mug-saucer"></i></div>
+                                        <div>
+                                            <div class="nudge-text">Break Time</div>
+                                            <div class="nudge-time">Every 1 Hour</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="nudge-item">
+                                        <div class="nudge-icon"><i class="fa-solid fa-tint"></i></div>
+                                        <div>
+                                            <div class="nudge-text">Time For Water</div>
+                                            <div class="nudge-time">Every 45 mins</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="nudge-item">
+                                        <div class="nudge-icon"><i class="fa-solid fa-bed"></i></div>
+                                        <div>
+                                            <div class="nudge-text">Wind Down For Sleep</div>
+                                            <div class="nudge-time">From 10:00 PM To 6:00 AM</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3. Weekly Summary -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fa-solid fa-calendar-week" style="color:var(--primary); margin-right:12px;"></i> Weekly Schedule
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#timeAccordion">
+                                <div class="accordion-body">
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Saturday</div>
+                                        </div>
+                                        
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Sunday</div>
+                                        </div>
+                                        
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Monday</div>
+                                        </div>
+                                        
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Tuesday</div>
+                                        </div>
+                                        
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Wednesday</div>
+                                        </div>
+                                        
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Thursday</div>
+                                        </div>
+                                        
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Friday</div>
+                                        </div>
+                                        
+                                        <div class="day-hours">4h 0m</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4. Curfew -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <i class="fa-solid fa-moon" style="color:var(--primary); margin-right:12px;"></i> Curfew
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#timeAccordion">
+                                <div class="accordion-body">
+                                    <div class="curfew-card">
+                                        <div>
+                                            <div class="small-muted">Night Curfew</div>
+                                            <div class="curfew-times">10:00 PM <span style="color:var(--muted); font-weight:600;">→</span> 6:00 AM</div>
+                                            <div class="small-muted" style="margin-top:6px;">Applies every night</div>
+                                        </div>
+                                        @* <div>
+                                            <div id="curfewToggle" class="toggle" role="switch" aria-checked="true">
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div> *@
+                                    </div>
+
+@*                                     <div class="mt-18 small-muted">Tip: When curfew is enabled devices will be restricted during curfew hours.</div>
+ *@                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- accordion -->
+                </div>
+                <a class="btn btn-primary w-100 mt-3" href="/TimeGuardian/TimeSetup">
+                    <i class="fa-solid fa-check-circle me-2"></i> setup
+                </a>
+            </div>
+
+            <!-- Repeat swiper-slide for more challenges -->
+            <!-- Challenge Slide -->
+            <div class="swiper-slide">
+                <div class="leaderboard-item pb-4">
+                    <div class="avatar">
+                        <img src="~/img/Doughter.png" alt="Fatima Avatar" />
+                    </div>
+                    <div class="leader-info">
+                        <div class="leader-name">Fatima</div>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+
+                    <!-- Accordions -->
+                    <div class="accordion" id="timeAccordion2">
+
+                        <!-- 1. Device Usage (apps) -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <i class="fa-solid fa-mobile-screen-button" style="color:var(--primary); margin-right:12px;"></i> Device Usage — Apps
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#timeAccordion">
+                                <div class="accordion-body">
+                                    <!-- Apps grid -->
+                                    <div class="row g-3">
+
+                                        <!-- Chart -->
+                                        <div class="chart-container">
+                                            <h2><i class="fa-solid fa-chart-pie" style="color:#3b82f6; margin-right:8px;"></i> App Usage</h2>
+
+                                            <!-- Chart canvas -->
+                                            <div style="width:200px; margin:auto">
+                                                <canvas id="usageChart2" width="150" height="150"></canvas>
+                                            </div>
+                                            <!-- Legend -->
+                                            <div class="chart-legend">
+                                                <div class="legend-item"><div class="legend-color" style="background:#FF0000"></div>YouTube</div>
+                                                <div class="legend-item"><div class="legend-color" style="background:#1877F2"></div>Facebook</div>
+                                                <div class="legend-item"><div class="legend-color" style="background:#C13584"></div>Instagram</div>
+                                                <div class="legend-item"><div class="legend-color" style="background:#000000"></div>TikTok</div>
+                                                <div class="legend-item"><div class="legend-color" style="background:#22C55E"></div>Games</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- App item template -->
+                                        <!-- YouTube -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:#FF0000;">
+                                                    <i class="fa-brands fa-youtube"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">YouTube</div>
+                                                        <div class="app-time">1h 10m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="70" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Facebook -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:#1877F2;">
+                                                    <i class="fa-brands fa-facebook-f"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">Facebook</div>
+                                                        <div class="app-time">30m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="30" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Instagram -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:linear-gradient(45deg,#f58529,#dd2a7b);">
+                                                    <i class="fa-brands fa-instagram"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">Instagram</div>
+                                                        <div class="app-time">50m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="50" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- TikTok -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:#000;">
+                                                    <i class="fa-brands fa-tiktok"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">TikTok</div>
+                                                        <div class="app-time">20m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="20" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Games -->
+                                        <div class="col-lg-6">
+                                            <div class="app-item">
+                                                <div class="app-icon" style="background:#4ade80;">
+                                                    <i class="fa-solid fa-gamepad"></i>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="app-name">Games</div>
+                                                        <div class="app-time">50m</div>
+                                                    </div>
+                                                    <div class="usage-bar mt-2">
+                                                        <div class="usage-bar-fill" data-minutes="50" data-total="220"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div> <!-- row -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2. Nudges & Alerts -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    <i class="fa-solid fa-bell" style="color:var(--primary); margin-right:12px;"></i> Nudges & Alerts
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#timeAccordion">
+                                <div class="accordion-body">
+                                    <div class="nudge-item">
+                                        <div class="nudge-icon"><i class="fa-solid fa-mug-saucer"></i></div>
+                                        <div>
+                                            <div class="nudge-text">Break Time</div>
+                                            <div class="nudge-time">Every 1 Hour</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="nudge-item">
+                                        <div class="nudge-icon"><i class="fa-solid fa-tint"></i></div>
+                                        <div>
+                                            <div class="nudge-text">Time For Water</div>
+                                            <div class="nudge-time">Every 45 mins</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="nudge-item">
+                                        <div class="nudge-icon"><i class="fa-solid fa-bed"></i></div>
+                                        <div>
+                                            <div class="nudge-text">Wind Down For Sleep</div>
+                                            <div class="nudge-time">From 10:00 PM To 6:00 AM</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3. Weekly Summary -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    <i class="fa-solid fa-calendar-week" style="color:var(--primary); margin-right:12px;"></i> Weekly Schedule
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#timeAccordion">
+                                <div class="accordion-body">
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Saturday</div>
+                                        </div>
+
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Sunday</div>
+                                        </div>
+
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Monday</div>
+                                        </div>
+
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Tuesday</div>
+                                        </div>
+
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Wednesday</div>
+                                        </div>
+
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Thursday</div>
+                                        </div>
+
+                                        <div class="day-hours">2h 0m</div>
+                                    </div>
+
+                                    <div class="day-item">
+                                        <div class="day-left">
+                                            <div class="day-label">Friday</div>
+                                        </div>
+
+                                        <div class="day-hours">4h 0m</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4. Curfew -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEght">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEght" aria-expanded="false" aria-controls="collapseEght">
+                                    <i class="fa-solid fa-moon" style="color:var(--primary); margin-right:12px;"></i> Curfew
+                                </button>
+                            </h2>
+                            <div id="collapseEght" class="accordion-collapse collapse" aria-labelledby="headingEght" data-bs-parent="#timeAccordion">
+                                <div class="accordion-body">
+                                    <div class="curfew-card">
+                                        <div>
+                                            <div class="small-muted">Night Curfew</div>
+                                            <div class="curfew-times">10:00 PM <span style="color:var(--muted); font-weight:600;">→</span> 6:00 AM</div>
+                                            <div class="small-muted" style="margin-top:6px;">Applies every night</div>
+                                        </div>
+                                        @* <div>
+                                        <div id="curfewToggle" class="toggle" role="switch" aria-checked="true">
+                                        <div class="dot"></div>
+                                        </div>
+                                        </div> *@
+                                    </div>
+
+                                    @*                                     <div class="mt-18 small-muted">Tip: When curfew is enabled devices will be restricted during curfew hours.</div>
+                                    *@
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- accordion -->
+                </div>
+                <a class="btn btn-primary w-100 mt-3" href="/TimeGuardian/TimeSetup">
+                    <i class="fa-solid fa-check-circle me-2"></i> setup
+                </a>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+
+    </div>
+
+</div>
+@* <div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div> *@
+<div class="swiper-pagination"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+@section Scripts{
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            loop: false,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+
+    <script>
+        $(function () {
+
+            // Animate summary mini-fill on page load
+            setTimeout(function () {
+                $('#summaryFill').css('width', '42%'); // example
+            }, 200);
+
+            // function to animate usage bars inside a container
+            function animateUsageBars($container) {
+                $container.find('.usage-bar-fill').each(function () {
+                    var $el = $(this);
+                    var minutes = +$el.data('minutes') || 0;
+                    var total = +$el.data('total') || 1;
+                    var pct = Math.round((minutes / total) * 100);
+                    // animate with jQuery
+                    $el.css('width', '0%');
+                    $el.animate({ width: pct + '%' }, 900);
+                });
+            }
+
+            
+            // When any accordion is shown -> animate its bars
+            $('#timeAccordion').on('shown.bs.collapse', function (e) {
+                var $panel = $(e.target);
+                animateUsageBars($panel);
+                // animateDayBars($panel);
+            });
+
+            $('#timeAccordion2').on('shown.bs.collapse', function (e) {
+                var $panel = $(e.target);
+                animateUsageBars($panel);
+                // animateDayBars($panel);
+            });
+
+            // Optionally animate the first accordion when page loads
+            // (open first accordion automatically and animate)
+            setTimeout(function () {
+                var first = new bootstrap.Collapse($('#collapseOne'), { show: true });
+            }, 300);
+
+            // Curfew toggle behaviour
+            $('#curfewToggle').on('click', function () {
+                $(this).toggleClass('off');
+                var enabled = !$(this).hasClass('off');
+                // You can send the enabled state to your backend here
+            });
+
+            // Optional: compute total from apps and show totalTimeDisplay (using sample minutes)
+            function computeTotal() {
+                var total = 0;
+                $('.usage-bar-fill').each(function () { total += Number($(this).data('minutes') || 0); });
+                // convert minutes to hours+minutes
+                var h = Math.floor(total / 60);
+                var m = total % 60;
+                $('#totalTimeDisplay').text(h + 'h ' + m + 'm');
+            }
+            // initial compute
+            computeTotal();
+
+        });
+    </script>
+
+    <script>
+        // Data based on previous times
+        const data = {
+            labels: ['YouTube', 'Facebook', 'Instagram', 'TikTok', 'Games'],
+            datasets: [{
+                data: [37, 22, 15, 10, 16], // percentages based on earlier example
+                backgroundColor: [
+                    '#FF0000', // YouTube
+                    '#1877F2', // Facebook
+                    '#C13584', // Instagram
+                    '#000000', // TikTok
+                    '#22C55E'  // Games
+                ],
+                borderWidth: 3,
+                borderColor: '#fff',
+                hoverOffset: 12
+            }]
+        };
+
+        const options = {
+            cutout: '70%',
+            responsive: true,
+            animation: {
+                animateRotate: true,
+                animateScale: true,
+                duration: 1800,
+                easing: 'easeOutQuart'
+            },
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    backgroundColor: '#111827',
+                    titleFont: { size: 14 },
+                    bodyFont: { size: 13 },
+                    callbacks: {
+                        label: function (ctx) {
+                            return `${ctx.label}: ${ctx.parsed}%`;
+                        }
+                    }
+                }
+            }
+        };
+
+        // Create chart1
+        const ctx = document.getElementById('usageChart');
+        const usageChart = new Chart(ctx, {
+            type: 'doughnut',
+            data,
+            options
+        });
+
+        // Create chart2
+        const ctx2 = document.getElementById('usageChart2');
+        const usageChart2 = new Chart(ctx2, {
+            type: 'doughnut',
+            data,
+            options
+        });
+    </script>
+}
+

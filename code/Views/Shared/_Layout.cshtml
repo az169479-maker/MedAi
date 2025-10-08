@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+      -----------------------------------------------------------------------------
+      Copyright (c) 2025 Moustapha Kamel, MedAi
+      SPDX-License-Identifier: MIT
+
+      This file is part of the MedAi software project.
+      For full license text, see the LICENSE file in the project root.
+      -----------------------------------------------------------------------------
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MedAi</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MedAi.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+    /* Navbar Styling */
+    .navbar {
+      backdrop-filter: blur(6px);
+      transition: all 0.3s ease;
+      z-index: 1000;
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      letter-spacing: 0.5px;
+            color: #3551a5 !important;
+            font-size: 22px!important;
+    }
+
+    .nav-link {
+      transition: color 0.3s ease, transform 0.2s ease;
+      font-weight: 500;
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 3px;
+      width: 0%;
+      height: 2px;
+      background-color: #333;
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .nav-link:hover {
+      color: #16a34a !important;
+      transform: translateY(-2px);
+    }
+
+    /* Dropdown Animation */
+    .dropdown-menu {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      padding: 10px 0;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.25s ease;
+      display: none;
+      visibility: hidden;
+      font-size:17px
+    }
+
+    .dropdown-menu.show {
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible;
+    }
+
+    .dropdown-item {
+      transition: background 0.2s ease, transform 0.2s ease;
+      font-weight: 500;
+    }
+
+    .dropdown-item:hover {
+      background-color: #f0fdf4;
+      color: #16a34a;
+      transform: translateX(5px);
+    }
+
+    @@media (max-width: 768px) {
+      .navbar-nav {
+        text-align: center;
+      }
+
+      .nav-item {
+        margin: 6px 0;
+      }
+
+      .nav-link::after {
+        display: none;
+      }
+
+      #mainNavbar ul{
+
+      }
+    }
+        /**http://148.66.154.214:8000/*/
+  </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white shadow-sm  border-bottom">
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold" href="/Home/Index">
+                    <i class="fa-solid fa-seedling me-2"></i> Hero Habits
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto text-start" style="font-size: 19px; color:#333">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Meals/FavoriteMealsPage">
+                                <i class="fa-solid fa-apple-whole me-1 "></i> Lifestyle & Preferences
+                            </a>
+                        </li>
+
+                        <!-- Meals -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="mealsDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-utensils me-1 "></i> Meals
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="mealsDropdown">
+                                <li><a class="dropdown-item" href="/Meals/MealsPlanningPage"><i class="fa-solid fa-bowl-food me-2"></i> Meal Planning</a></li>
+                                <li><a class="dropdown-item" href="/Meals/MyMealsPage"><i class="fa-solid fa-plate-wheat me-2"></i> My Meals Plans</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Family Gamification -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="familyDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-gamepad me-1 "></i> Family Gamification
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="familyDropdown">
+                                <li><a class="dropdown-item" href="/FamilyGamification/DailyChallenge"><i class="fa-solid fa-trophy me-2"></i> Daily Challenge</a></li>
+                                <li><a class="dropdown-item" href="/FamilyGamification/MyAchievements"><i class="fa-solid fa-medal me-2"></i> My Achievements</a></li>
+                                <li><a class="dropdown-item" href="/FamilyGamification/FamilyLeaderboard"><i class="fa-solid fa-ranking-star me-2"></i> Family Leaderboard</a></li>
+                                <li><a class="dropdown-item" href="/FamilyGamification/FamilyProgress"><i class="fa-solid fa-chart-line me-2"></i> Family Progress</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Time Guardian -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/TimeGuardian/TimeDashboard">
+                                <i class="fa-solid fa-clock me-1 "></i> Time Guardian
+                            </a>
+                        </li>
+
+                        <!-- Wearable -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="wearableDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-wifi me-1 "></i> Wearable Pairing
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="wearableDropdown">
+                                <li><a class="dropdown-item" href="/DevicesPairing/DevicesPage"><i class="fa-solid fa-link me-2"></i> Pairing Devices</a></li>
+                                <li><a class="dropdown-item" href="/DevicesPairing/ActivityDashboard"><i class="fa-solid fa-chart-pie me-2"></i> Activity Dashboard</a></li>
+                                <li><a class="dropdown-item" href="/DevicesPairing/FamilyComparison"><i class="fa-solid fa-scale-balanced me-2"></i> Family Comparison</a></li>
+                                <li><a class="dropdown-item" href="/DevicesPairing/HistoricalTrends"><i class="fa-solid fa-calendar-days me-2"></i> Historical Trends</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Hero Assistant -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/HeroAssistant/HerosChat">
+                                <i class="fa-solid fa-robot me-1 "></i> Hero Habits Assistant
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @* <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - MedAi - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <!-- jQuery (for dropdown animation trigger) -->
+@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> *@
+<script>
+  // Add animation when dropdown opens/closes
+  $('.dropdown').on('show.bs.dropdown', function () {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown(200);
+  });
+
+  $('.dropdown').on('hide.bs.dropdown', function () {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp(150);
+  });
+</script>
+</body>
+</html>

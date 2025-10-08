@@ -1,0 +1,173 @@
+﻿@{
+    ViewData["Title"] = "FamilyLeaderboard";
+}
+
+<style>
+
+
+        .signup-card h2 {
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+    .leaderboard-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
+        background-color: #f0f0f0;
+    }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .leader-info {
+        flex-grow: 1;
+    }
+
+    .leader-name {
+        font-weight: 600;
+        font-size: 1.25rem;
+        color: #374151;
+    }
+
+    .points {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 0.2rem;
+        font-weight: 500;
+        color: #4b5563;
+        font-size: 1rem;
+    }
+
+        .points .badge {
+            font-weight: 700;
+            font-size: 1rem;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+    .badge-gold {
+        background-color: #facc15; /* yellow */
+    }
+
+    .badge-silver {
+        background-color: #9ca3af; /* grey */
+    }
+
+    .badge-bronze {
+        background-color: #ea580c; /* orange */
+    }
+
+    .streak {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 0.9rem;
+        color: #6b7280;
+        margin-top: 0.2rem;
+    }
+
+    .streak-icon {
+        color: #f97316; /* orange */
+        font-size: 1.2rem;
+    }
+
+    .btn-cheer {
+        background-color: #4f8aff;
+        border: none;
+        color: white;
+        font-weight: 600;
+        border-radius: 9999px;
+        padding: 0.25rem 1rem;
+        font-size: 0.9rem;
+        cursor: pointer;
+        user-select: none;
+    }
+
+        .btn-cheer:hover {
+            background-color: #3a6ed1;
+        }
+    
+</style>
+<div class="signup-card">
+    
+    <h2>Family Leaderboard</h2>
+
+    <!-- Ahmed -->
+    <div class="leaderboard-item">
+        <div class="avatar">
+            <img src="~/img/Father.webp" alt="Ahmed Avatar" />
+        </div>
+        <div class="leader-info">
+            <div class="leader-name">Ahmed</div>
+            <div class="points">
+                <span class="badge badge-gold">1</span> 20 points
+            </div>
+            <div class="streak">
+                <i class="fas fa-fire streak-icon"></i> 7 day streak
+            </div>
+        </div>
+    </div>
+
+    <!-- Maryam -->
+    <div class="leaderboard-item">
+        <div class="avatar">
+            <img src="~/img/Mother.png" alt="Maryam Avatar" />
+        </div>
+        <div class="leader-info d-flex align-items-center justify-content-between">
+            <div>
+                <div class="leader-name">Maryam</div>
+                <div class="points">
+                    <span class="badge badge-silver">2</span> 15 points
+                </div>
+            </div>
+            <button class="btn-cheer">Cheer</button>
+        </div>
+    </div>
+
+    <!-- Fatima -->
+    <div class="leaderboard-item">
+        <div class="avatar">
+            <img src="~/img/Son.webp" alt="Fatima Avatar" />
+        </div>
+        <div class="leader-info">
+            <div class="leader-name">Ali</div>
+            <div class="points">
+                <span class="badge badge-bronze">3</span> 12 points
+            </div>
+        </div>
+    </div>
+
+    <!-- Fant -->
+    <div class="leaderboard-item">
+        <div class="avatar">
+            <img src="~/img/Doughter.png" alt="Fant Avatar" />
+        </div>
+        <div class="leader-info">
+            <div class="leader-name">Fatima</div>
+            <div class="points">
+                <span class="badge badge-bronze">4</span> 9 points
+            </div>
+        </div>
+    </div>
+</div>

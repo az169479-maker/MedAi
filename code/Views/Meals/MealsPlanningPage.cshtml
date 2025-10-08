@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewData["Title"] = "Meal Planning";
+}
+<style>
+    
+
+    
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #007bff;
+    }
+
+    .form-icon {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #007bff;
+    }
+
+    .form-group {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .form-check-inline {
+        margin-right: 15px;
+    }
+
+    .form-control:focus, .form-select:focus {
+        box-shadow: none;
+        border-color: #007bff;
+    }
+
+    
+</style>
+
+<div class="signup-card">
+    <h4 class="text-center mb-4"><i class="fa-solid fa-bowl-food"></i> Meal Planning Preferences</h4>
+    <form asp-action="GeneratedMealPlanPage">
+
+        <div class="form-group">
+            <label class="form-label"><i class="fa-solid fa-stopwatch"></i> Quick Meals vs. Cooking Time</label>
+            <input type="range" class="form-range" min="0" max="100" step="50" id="cookingSlider">
+            <div class="d-flex justify-content-between">
+                <small>Quick Meals</small>
+                <small>Balanced</small>
+                <small>Long Cooking</small>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label d-block mb-2"><i class="fa-solid fa-utensils"></i> Meals to Plan:</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="Breakfast" id="mealBreakfast">
+                <label class="form-check-label" for="mealBreakfast">Breakfast</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="Lunch" id="mealLunch">
+                <label class="form-check-label" for="mealLunch">Lunch</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="Dinner" id="mealDinner">
+                <label class="form-check-label" for="mealDinner">Dinner</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label"><i class="fa-solid fa-user-group"></i> Plan Type:</label>
+            <select class="form-select" id="planType">
+                <option value="">Select...</option>
+                <option value="1">Individual</option>
+                <option value="2">Family</option>
+            </select>
+        </div>
+
+        <div class="form-group FamilyMembers" style="display:none">
+            <label class="form-label"><i class="fa-solid fa-users"></i> Family Members:</label>
+            <select class="form-select" id="familyMembers">
+                <option value="">-- Select --</option>
+                <option value="1">Ahmed </option>
+                <option value="2">Maryam</option>
+                <option value="3">Ali </option>
+                <option value="4">Fatema </option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Duration" class="form-label"><i class="fa-solid fa-calendar-days"></i> Duration:</label>
+            <input type="number" class="form-control" placeholder="Enter Number of Days" id="Duration" />
+        </div>
+
+        <div class="form-group">
+            <label class="form-label"><i class="fa-solid fa-money-bill-wave"></i> Budget Friendly:</label><br />
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="budget" id="budgetYes" value="Yes">
+                <label class="form-check-label" for="budgetYes">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="budget" id="budgetNo" value="No">
+                <label class="form-check-label" for="budgetNo">No</label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100 mt-3">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Generate Plan
+        </button>
+    </form>
+</div>
+
+@section Scripts{
+<script>
+    $("#planType").change(function () {
+
+        if ($("#planType").val() == 1) {
+            $(".FamilyMembers").slideDown()
+        } else {
+            $(".FamilyMembers").slideUp()
+        }
+
+
+    })
+</script>
+}

@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+.feature-card {
+      background: #ffffff;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+      text-align: center;
+      padding: 30px 20px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+
+    .feature-icon {
+      font-size: 56px;
+      color: #6286bf;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .feature-card:hover .feature-icon {
+        color: #6286bf;
+      transform: scale(1.1);
+    }
+
+    .feature-title {
+      font-size: 21px;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 5px;
+    }
+
+    .feature-link {
+      text-decoration: none;
+      color: #6b7280;
+      font-size: 17px;
+      transition: color 0.3s ease;
+    }
+
+    .feature-link:hover {
+            color: #3769b9;
+    }
+
+    @@media (max-width: 768px) {
+      .feature-card {
+        margin-bottom: 0px;
+      }
+    }
+
+    
+  </style>
+<div class="signup-card text-center">
+    <h1 class="display-4 mb-4">Welcome</h1>
+    <div class="row g-4 justify-content-center">
+
+        <div class="col-md-4 col-lg-3">
+            <a href="/Meals/MealsPlanningPage" class="feature-link">
+            <div class="feature-card">
+                <i class="fa-solid fa-bowl-food feature-icon"></i>
+                <div class="feature-title">Meals</div>
+                    <span class="feature-link">Go to Meals</span>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+            <a href="/FamilyGamification/DailyChallenge" class="feature-link">
+            <div class="feature-card">
+                <i class="fa-solid fa-trophy feature-icon"></i>
+                <div class="feature-title">Family Gamification</div>
+                <span class="feature-link">Open Challenges</span>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+            <a href="/TimeGuardian/TimeDashboard" class="feature-link">
+            <div class="feature-card">
+                <i class="fa-solid fa-clock feature-icon"></i>
+                <div class="feature-title">Time Guardian</div>
+                <span class="feature-link">View Dashboard</span>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+            <a href="/DevicesPairing/DevicesPage" class="feature-link">
+            <div class="feature-card">
+                    <i class="fa-solid fa-wifi feature-icon"></i>
+                <div class="feature-title">Wearable Pairing</div>
+                <span class="feature-link">Connect Device</span>
+            </div>
+            </a>
+        </div>
+
+
+        <div class="col-md-4 col-lg-3">
+            <a href="/HeroAssistant/HerosChat" class="feature-link">
+            <div class="feature-card">
+                <i class="fa-solid fa-robot feature-icon"></i>
+                <div class="feature-title">Hero Assistant</div>
+                <span class="feature-link">Chat with Assistant</span>
+            </div>
+            </a>
+        </div>
+
+        
+    </div>
+</div>

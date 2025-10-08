@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "DevicesPage";
+}
+
+<style>
+    :root {
+      --primary: #1e3a8a;
+      --paired: #3b82f6;
+      --unpaired: #f97316;
+      --bg: #f9fafb;
+      --text: #1f2937;
+      --muted: #6b7280;
+    }
+
+   /*  body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      padding: 30px;
+      margin: 0;
+    } */
+
+    /* .container {
+      max-width: 400px;
+      margin: auto;
+    } */
+
+    h2 {
+      text-align: center;
+      color: var(--primary);
+      font-size: 24px;
+      margin-bottom: 24px;
+      animation: fadeInDown 0.6s ease;
+    }
+
+    .device-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      animation: fadeInUp 0.5s ease;
+    }
+
+    .device-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 600;
+      color: var(--text);
+/*       font-size: 16px;
+ */    }
+
+    .device-icon {
+      font-size: 22px;
+    }
+
+    .status {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--muted);
+    }
+
+    .btn {
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn.paired {
+      background: var(--paired);
+      color: #fff;
+    }
+
+    .btn.unpaired {
+      background: var(--unpaired);
+      color: #fff;
+    }
+
+    .signup-card{
+        height:500px;
+    }
+/* 
+    keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    } */
+  </style>
+
+<div class="signup-card">
+    <h2>Device Pairing</h2>
+
+    <!-- Fitbit -->
+    <div class="device-card">
+        <div class="device-info">
+            <span class="device-icon">🔷</span>
+            <span>Fitbit</span>
+        </div>
+        <button class="btn unpaired">Pair</button>
+    </div>
+
+    <!-- Apple Watch -->
+    <div class="device-card">
+        <div class="device-info">
+            <span class="device-icon">⌚</span>
+            <span>Apple Watch</span>
+        </div>
+        <button class="btn paired">Paired</button>
+    </div>
+
+    <!-- Generic -->
+    <div class="device-card">
+        <div class="device-info">
+            <span class="device-icon">📟</span>
+            <span>Generic</span>
+        </div>
+        <button class="btn unpaired">Pair</button>
+    </div>
+</div>
+
+

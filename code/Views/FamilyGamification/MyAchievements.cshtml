@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "GeneratedMealPlan";
+}
+
+<style>
+
+
+
+    .achievement {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .achievement img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .locked img {
+        opacity: 0.4;
+    }
+
+    .achievement {
+        text-align: center;
+        padding: 20px;
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .achievement:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+        }
+
+    .achievement-label {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .achievement i
+    {
+        font-size:60px;
+        margin-bottom:15px;
+
+    }
+</style>
+<div class="signup-card">
+
+    <h2 class="text-center mb-5">Your Achievements</h2>
+    <div class="row row-cols-2 row-cols-md-3 g-4 justify-content-center">
+
+        <!-- Water Hero -->
+        <div class="col achievement">
+            <i class="fas fa-tint text-primary"></i>
+            <div class="achievement-label">Water Hero</div>
+        </div>
+
+        <!-- Walking -->
+        <div class="col achievement">
+            <i class="fas fa-shoe-prints text-warning"></i>
+            <div class="achievement-label">Activity Champion</div>
+        </div>
+
+        <!-- Jump Rope -->
+        <div class="col achievement">
+            <i class="fas fa-running" style="font-size: 50px; color: #ff6600;"></i>
+
+            <div class="achievement-label">Jump Rope Master</div>
+        </div>
+
+        <!-- Sleep -->
+        <div class="col achievement">
+            <i class="fas fa-bed text-info"></i>
+            <div class="achievement-label">Sleep Star</div>
+        </div>
+
+        <!-- Locked 1 -->
+        <div class="col achievement locked">
+            <i class="fas fa-lock"></i>
+            <div class="achievement-label">???</div>
+        </div>
+
+        <!-- Locked 3 -->
+        <div class="col achievement">
+            <i class="fas fa-lock"></i>
+            <div class="achievement-label mt-2">???</div>
+        </div>
+
+        <div class="col achievement locked">
+            <i class="fas fa-lock"></i>
+            <div class="achievement-label">???</div>
+        </div>
+
+        <!-- Locked 4 -->
+        <div class="col achievement">
+            <i class="fas fa-lock"></i>
+            <div class="achievement-label mt-2">???</div>
+        </div>
+
+    </div>
+   
+</div>

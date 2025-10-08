@@ -1,0 +1,363 @@
+﻿@{
+    ViewData["Title"] = "Heros Chat";
+
+}
+<style>
+    body{
+        margin-bottom:0;
+    }
+    .signup-card {
+      padding:0;
+    }
+
+    .chat-header {
+        color: #1e3a8a;
+        text-align: center;
+        font-size: 33px;
+        font-weight: 600;
+    }
+
+    .hero-section {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .hero-icon, .chatDoctor-icon {
+      font-size: 48px;
+      background: #e0f2fe;
+      color: #0ea5e9;
+      padding: 16px;
+      border-radius: 50%;
+      animation: bounce 1.2s infinite;
+        width: 170px;
+        height: 170px;
+        margin: auto;
+    }
+
+        .hero-icon img, .chatDoctor-icon img{
+    width:100%;
+    height:100%;
+            
+    }
+
+    .hero-text {
+      margin-top: 12px;
+      font-size: 16px;
+      color: #374151;
+    }
+
+    .chat-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px 15px;
+      background-color: #f9fafb;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chat-body div {
+            background: #edf2fa;
+            border-radius: 12px;
+            animation: fadeInUp 0.6s ease;
+            margin-bottom: 10px;
+            padding: 11px;
+    }
+    .message {
+      max-width: 75%;
+      padding: 12px 16px;
+      border-radius: 16px;
+      margin-bottom: 12px;
+      animation: fadeInUp 0.4s ease;
+    }
+
+    .message.parent {
+      background-color: #e0e7ff;
+      align-self: flex-end;
+      text-align: right;
+    }
+
+    .message.system {
+      background-color: #e5e7eb;
+      align-self: flex-start;
+      text-align: left;
+    }
+
+    .chat-footer {
+      padding: 12px 16px;
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+      display: flex;
+      gap: 10px;
+    }
+
+    .chat-footer input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #d1d5db;
+    }
+
+    .chat-footer button {
+      background-color: #1e3a8a;
+      color: #fff;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 10px;
+    }
+
+    @@keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @@keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .Specialty-section, .Doctor-section, .chatDoctor-section {
+        display:none;
+    }
+
+    /*******section 2*********/
+
+    .btn-connect {
+      background-color: #3b82f6;
+      color: #fff;
+      font-weight: 600;
+      padding: 12px 24px;
+      border-radius: 30px;
+      margin-bottom: 24px;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-connect:hover {
+      background-color: #2563eb;
+      transform: scale(1.03);
+    }
+
+    .option-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #f9fafb;
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-size:20px
+    }
+
+    .option-box:hover {
+      background: #e0e7ff;
+    }
+
+    .option-box i {
+      font-size: 26px;
+      color: #3b82f6;
+      transition: transform 0.3s ease;
+    }
+
+    .option-box:hover i {
+      transform: scale(1.2);
+    }
+
+    .option-label {
+      font-weight: 600;
+      color: #374151;
+      
+    }
+
+    @@keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .Specialty-section h2{
+        margin: 17px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+    /*******section 3 ***********/
+
+    .doctor-avatar {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
+        background-color: #f0f0f0;
+        margin:auto;
+    }
+
+        .doctor-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+    .achievement {
+        display: inline-block;
+        text-align: center;
+        padding: 20px;
+        width: 45%;
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 30px;
+    }
+
+        .achievement:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+        }
+
+    .achievement-label {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .text-success {
+        --bs-text-opacity: 1;
+        color: rgb(25 217 128) !important;
+    }
+</style>
+<div class="signup-card pt-3">
+
+    <div class="chat-header">
+        <i class="fa-solid fa-comments"></i> Heros Assistant
+    </div>
+
+    <div class="chat-section">
+        <div class="hero-section">
+            <div class="hero-icon"><img src="~/Img/Chat.png" /></div>
+            <div class="hero-text">You're connected <i class="fa-solid fa-wifi"></i> to Hero Habits AI Assistant</div>
+        </div>
+
+        <div class="chat-body" id="chatBody">
+
+            <div class="text-center ">
+                 Welcome! How can I assist you today?
+            </div>
+            <div class="text-center btnConnect-Expert">
+                <i class="fa-solid fa-user-plus me-2"> </i>Connect to Expert
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="Specialty-section">
+        <h2>Connect to Expert</h2>
+        
+        <div class="option-box">
+            <i class="fa-solid fa-apple-whole"></i>
+            <div class="option-label">Nutritionist</div>
+        </div>
+
+        <div class="option-box">
+            <i class="fa-solid fa-dumbbell"></i>
+            <div class="option-label">Fitness Coach</div>
+        </div>
+
+        <div class="option-box">
+            <i class="fa-solid fa-heart"></i>
+            <div class="option-label">Emotional Support</div>
+        </div>
+    </div>
+
+    <div class="Doctor-section">
+
+        <div class="col achievement">
+            <div class="doctor-avatar"><img src="~/Img/Doctor.png" /></div>
+            <div class="achievement-label">Mohamed</div>
+            <div class="achievement-status text-success">Available</div>
+
+        </div>
+
+        <div class="col achievement">
+            <div class="doctor-avatar"><img src="~/Img/DoctorF.png" /></div>
+            <div class="achievement-label">Maryam</div>
+            <div class="achievement-status text-success">Available</div>
+
+        </div>
+        <div class="col achievement">
+            <div class="doctor-avatar"><img src="~/Img/DoctorF.png" /></div>
+            <div class="achievement-label">Yasmin</div>
+            <div class="achievement-status text-success">Available</div>
+            
+
+        </div>
+
+        <div class="col achievement">
+            <div class="doctor-avatar"><img src="~/Img/Doctor.png" /></div>
+            <div class="achievement-label">Ali</div>
+            <div class="achievement-status text-muted">UnAvailable</div>
+        </div>
+
+    </div>
+
+    <div class="chatDoctor-section" style="min-height: 426px;">
+
+        <div class="hero-section" >
+                <div class="chatDoctor-icon"><img src="~/Img/Chat.png" /></div>
+                <div class="chatDoctor-label"></div>
+            </div>
+
+
+        </div>
+
+    <div class="chat-footer">
+        <input type="text" id="chatInput" placeholder="Type a message..." />
+        <button onclick="sendMessage()"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+</div>
+@section Scripts{
+    <script>
+        function sendMessage() {
+            const input = document.getElementById("chatInput");
+            const chatBody = document.getElementById("chatBody");
+            const text = input.value.trim();
+
+            if (text !== "") {
+                const msg = document.createElement("div");
+                msg.className = "message parent";
+                msg.innerHTML = `<i class="fa-solid fa-user me-2"></i> ${text}`;
+                chatBody.appendChild(msg);
+                input.value = "";
+                chatBody.scrollTop = chatBody.scrollHeight;
+            }
+        }
+
+        $(".btnConnect-Expert").click(function () {
+            $(".chat-section").slideUp()
+            $(".chat-footer").hide()
+            $(".Specialty-section").slideDown()
+            
+            
+        })
+
+        $(".option-box").click(function () {
+            
+            $(".Specialty-section").slideUp()
+            $(".Doctor-section").slideDown()
+
+        })
+
+        $(".achievement").click(function () {
+            $(".Doctor-section").slideUp()
+            $(".chat-footer").show()
+            $(".chatDoctor-section").slideDown()
+
+            $(".chatDoctor-icon img").prop("src", $(this).find("img").prop("src"))
+            $(".chatDoctor-label").text($(this).find(".achievement-label").text())
+        })
+
+    </script>
+}

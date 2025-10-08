@@ -1,0 +1,161 @@
+﻿
+@{
+    ViewData["Title"] = "Grocery List";
+}
+<style>
+    
+    .signup-card {
+        
+    }
+
+    .btn-primary {
+        transition: all 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            transform: scale(1.02);
+        }
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #007bff;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .k-input-inner {
+        height: 32px;
+    }
+
+    .table-responsive {
+        margin-bottom: 20px;
+    }
+</style>
+<div class="signup-card">
+    <h4 class="text-center mb-4">
+        <i class="fa-solid fa-carrot me-2"></i> Ingredients You Need
+    </h4>
+
+    <div class="table-responsive">
+        <div id="Grid"></div>
+    </div>
+
+    <a class="btn btn-primary w-100 mt-3" href="/Home/Index">
+        <i class="fa-solid fa-file-pdf me-2"></i> Save as PDF
+    </a>
+
+    <a class="btn btn-primary w-100 mt-3" href="/Home/Index">
+        <i class="fa-solid fa-truck me-2"></i> Place Order
+    </a>
+</div>
+
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Kendo UI -->
+<link rel="stylesheet" href="~/Assets/AdminLTE-3.1.0/plugins/KendoUI/default-ocean-blue.css" asp-append-version="true" />
+
+
+@section Scripts{
+    <script src="https://cdn.kendostatic.com/2023.2.829/js/jquery.min.js"></script>
+    <script src="https://cdn.kendostatic.com/2023.2.829/js/kendo.all.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            
+                const groceryData = [
+                    { Ingredient: "Oats", Amount: "200g", Notes: "Gluten-free option" },
+                    { Ingredient: "Berries", Amount: "150g", Notes: "Fresh or frozen" },
+                    { Ingredient: "Bananas", Amount: "3 pcs", Notes: "For smoothie bowl" },
+                    { Ingredient: "Greek Yogurt", Amount: "250g", Notes: "Unsweetened" },
+                    { Ingredient: "Avocado", Amount: "2 pcs", Notes: "Ripe" },
+                    { Ingredient: "Whole Grain Bread", Amount: "1 loaf", Notes: "For toast" },
+                    { Ingredient: "Granola", Amount: "150g", Notes: "Low sugar" },
+                    { Ingredient: "Eggs", Amount: "6 pcs", Notes: "For muffins & breakfast" },
+                    { Ingredient: "Pancake Mix", Amount: "1 pack", Notes: "Optional sugar-free" },
+                    { Ingredient: "Chicken Breast", Amount: "500g", Notes: "Skinless, boneless" },
+                    { Ingredient: "Turkey Slices", Amount: "200g", Notes: "Lean" },
+                    { Ingredient: "Chicken Thighs", Amount: "400g", Notes: "For curry" },
+                    { Ingredient: "Beef Strips", Amount: "300g", Notes: "For stir fry" },
+                    { Ingredient: "Lamb Chops", Amount: "400g", Notes: "Optional marinade" },
+                    { Ingredient: "Shrimp", Amount: "300g", Notes: "Peeled & deveined" },
+                    { Ingredient: "Salmon Fillet", Amount: "400g", Notes: "Skin-on preferred" },
+                    { Ingredient: "Quinoa", Amount: "200g", Notes: "Rinse before cooking" },
+                    { Ingredient: "Rice", Amount: "500g", Notes: "Basmati or brown" },
+                    { Ingredient: "Spinach", Amount: "1 bunch", Notes: "Fresh" },
+                    { Ingredient: "Lettuce", Amount: "1 head", Notes: "For wraps & salad" },
+                    { Ingredient: "Tomatoes", Amount: "4 pcs", Notes: "Medium size" },
+                    { Ingredient: "Cucumber", Amount: "2 pcs", Notes: "For salad" },
+                    { Ingredient: "Bell Peppers", Amount: "3 pcs", Notes: "Mixed colors" },
+                    { Ingredient: "Onion", Amount: "2 pcs", Notes: "Yellow or red" },
+                    { Ingredient: "Garlic", Amount: "1 bulb", Notes: "Fresh" },
+                    { Ingredient: "Olive Oil", Amount: "100ml", Notes: "Extra virgin" },
+                    { Ingredient: "Spices & Herbs", Amount: "Mixed", Notes: "Paprika, cumin, thyme" }
+                ];
+
+            $("#Grid").kendoGrid({
+                dataSource: {
+                    data: groceryData,
+                    pageSize: 10,
+                    schema: {
+                        model: {
+                            fields: {
+                                Ingredient: { type: "string" },
+                                Amount: { type: "number" },
+                                Notes: { type: "string" }
+                            }
+                        }
+                    }
+                },
+                editable: true,
+                scrollable: false,
+                filterable: true,
+                reorderable: true,
+                resizable: true,
+                sortable: true,
+                pageable: {
+                    pageSizes: [10, 25, 50, 100],
+                    numeric: true
+                },
+                columns: [
+                    {
+                        field: "Ingredient",
+                        title: "Ingredient",
+                        width: "200px",
+                        filterable: { multi: true, search: true }
+                    },
+                    {
+                        field: "Amount",
+                        title: "Amount",
+                        width: "100px",
+                        editor: function (container, options) {
+                            $('<input name="' + options.field + '"/>')
+                                .appendTo(container)
+                                .kendoNumericTextBox({
+                                    format: "n0",
+                                    min: 0,
+                                    step: 1,
+                                    spinners: true
+                                });
+
+                            // منع الكتابة اليدوية داخل الحقل
+                            container.find("input").on("keydown", function (e) {
+                                e.preventDefault(); // يمنع أي كتابة
+                            });
+                        }
+                    },
+                    {
+                        field: "Notes",
+                        title: "Notes"
+                    }
+                ]
+            });
+
+            });
+        
+    </script>
+}
